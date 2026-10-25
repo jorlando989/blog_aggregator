@@ -3,13 +3,16 @@
 - Go
 
 # Setup
-1. Install gator CLI using go install ??
+1. Install gator CLI using:
+```sh
+go install ...
+```
 2. Create a config file called ".gatorconfig.json" in the root folder of your computer
 3. Add the following to the gatorconfig file:
 ```
 {"DbUrl":"<your_database_url>?sslmode=disable","CurrentUserName":""}
 ```
-4. Run the program using go run . <command_name>
+4. Run the program using gator <command_name> <args>
 
 # Available Commands
 - login <username>
